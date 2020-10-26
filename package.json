@@ -1,7 +1,11 @@
 {
   "name": "roamdown",
-  "version": "1.0.1",
-  "description": "Roamify your Markdown",
+  "version": "1.0.2",
+  "repository": {
+    "url": "https://github.com/jhalvorson/roamdown"
+  },
+  "homepage": "https://github.com/jhalvorson/roamdown",
+  "description": "Roamify your Markdown files",
   "main": "index.js",
   "author": "Jamie Halvorson",
   "license": "MIT",
