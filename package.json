@@ -1,11 +1,15 @@
 {
   "name": "roamdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Roamify your Markdown",
   "main": "index.js",
   "author": "Jamie Halvorson",
   "license": "MIT",
+  "bin": {
+    "roamdown": "./dist/index.js"
+  },
   "scripts": {
+    "prepublish": "yarn build",
     "build": "tsc",
     "permissions": "shx chmod +x dist/index.js"
   },

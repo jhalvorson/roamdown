@@ -100,7 +100,7 @@ function main() {
             switch (_e.label) {
                 case 0:
                     _e.trys.push([0, 30, , 31]);
-                    console.log(chalk_1.default.blue('Running Roamdown\n'));
+                    console.log(chalk_1.default.blue('\nRunning Roamdown\n'));
                     args = minimist_1.default(process.argv.slice(2));
                     currentDirectory = process.cwd();
                     if (!args.tagDirectory) {
