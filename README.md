@@ -1,4 +1,4 @@
-# Roamdown
+![Roamdown](repo/header.png)
 
 Roamdown parses your Markdown files and looks for [[wiki-links]]. Using the [[wiki-links]] it creates a Markdown file containing all references to the link as well as a snippet of the surrounding sentence to provide context to the link, I call these created files "tag files" since they bring together all content from a specific "tag" or "category".
 
